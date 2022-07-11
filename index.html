@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dropdown a{
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a{
+    text-decoration: none;
+    display: flex;
+   
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+}
+    </style>
+    
+</head>
+<body>
+    
+    <div class="dropdown">
+        <a href="">Home</a>
+        <div class="dropdown-content">
+          <a href="">Section</a>
+          <a href="">Aside</a>
+          <a href="">Article</a>
+          <a href="">Footer</a>
+      </div>
+      <a href="">News</a>
+      <a href="">Contact</a>
+      <a href="">About</a>
+      <a href="">Some text</a>
+      <a href=""> Navbar</a>
+      <a href="">Exercises</a>
+    </div>
+</body>
+</html>
